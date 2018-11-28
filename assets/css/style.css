@@ -1,6 +1,11 @@
+:root {
+    --player-card-image-height: 300px;
+}
+
 .cabi_player_card {
     position: relative;
     padding-bottom: 20px;
+    width: 100%;
 }
   
 .cabi_player_card__dati {
@@ -58,6 +63,11 @@
     border: #fbe448 solid 10px;
     border-bottom: 0;
     width: 100%;
+    height: var(--player-card-image-height);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 img {
