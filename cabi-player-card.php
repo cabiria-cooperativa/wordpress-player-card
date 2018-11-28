@@ -89,7 +89,7 @@ class CabiPlayerCard {
             </div>
             <div class="cabi_player_card__dati">
                 <div class="cabi_player_card__anagrafica">
-                    m <?php echo $data['cabi_player_card_altezza'] ?><br>
+                    m <?php echo number_format($data['cabi_player_card_altezza'], 2, ',', '.'); ?><br>
                     <?php echo $data['cabi_player_card_luogo_di_nascita'] ?> <?php echo $data['cabi_player_card_data di nascita'] ?>
                 </div>
                 <div class="cabi_player_card__nomecognome">
