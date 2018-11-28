@@ -1,5 +1,9 @@
 :root {
     --player-card-image-height: 300px;
+    --color-palette-1: #fff;
+    --color-palette-2: #282828;
+    --color-palette-3: #21335B;
+    --color-palette-4: #fbe448;
 }
 
 .cabi_player_card {
@@ -9,9 +13,9 @@
 }
   
 .cabi_player_card__dati {
-    background-color:#282828;
-    border-top: 2px solid #ffffff;
-    color: #ffffff;
+    background-color: var(--color-palette-2);
+    border-top: 2px solid var(--color-palette-1);
+    color: var(--color-palette-1);
     padding: 10px;
     width:100%;
     display: flex;
@@ -20,8 +24,8 @@
     }
 
 .cabi_player_card__info {
-    background-color:#21335B;
-    color: #ffffff;
+    background-color: var(--color-palette-3);
+    color: var(--color-palette-1);
     padding: 0px 8px;
     position: absolute;
     top:0;
@@ -60,7 +64,7 @@
 }
 
 .cabi_player_card__image {
-    border: #fbe448 solid 10px;
+    border: var(--color-palette-4) solid 10px;
     border-bottom: 0;
     width: 100%;
     height: var(--player-card-image-height);
@@ -78,7 +82,7 @@ img {
 .cabi_player_card__carriera_sportiva {
     width:100%;
     padding: 10px;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid var(--color-palette-1);
 }
 
 .cabi_player_card__carriera_title {
