@@ -1,0 +1,118 @@
+.cabi_player_card {
+    position: relative;
+    padding-bottom: 20px;
+}
+  
+.cabi_player_card__dati {
+    background-color:#282828;
+    border-top: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px;
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    }
+
+.cabi_player_card__info {
+    background-color:#21335B;
+    color: #ffffff;
+    padding: 0px 8px;
+    position: absolute;
+    top:0;
+    right: 0px;
+    text-align: right;
+    text-transform:uppercase;
+    display:inline-block;
+}
+
+.cabi_player_card__numero_maglia {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Roboto", Sans-serif;
+    margin-bottom: -8px;
+    line-height: 1.4;
+}
+.cabi_player_card__ruolo {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Roboto", Sans-serif;
+}
+
+.cabi_player_card__nomecognome {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: right;
+    text-transform:uppercase;
+    font-family: "Roboto", Sans-serif;
+}
+
+.cabi_player_card__anagrafica {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    font-family: "Roboto", Sans-serif;
+}
+
+.cabi_player_card__image {
+    border: #fbe448 solid 10px;
+    border-bottom: 0;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    display:block;
+}
+
+.cabi_player_card__carriera_sportiva {
+    width:100%;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.cabi_player_card__carriera_title {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    font-family: "Roboto", Sans-serif;
+    text-transform:uppercase;
+    cursor: pointer;
+}
+
+.cabi_player_cards {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    width: 100%;
+}
+
+.cabi_player_card__carriera_descrizione {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    font-family: "Roboto", Sans-serif;
+    display:none;
+}
+
+@media (min-width: 500px){
+    .cabi_player_card {
+        width: calc(50% - 30px);
+    }
+}
+
+@media (min-width: 768px){
+    .cabi_player_card {
+        width: calc(33% - 30px);
+    }
+}
+
+
+@media (min-width: 1024px){
+    .cabi_player_card {
+        width: calc(25% - 30px);
+    }
+}
+
+
+
