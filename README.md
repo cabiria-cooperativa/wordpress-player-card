@@ -1,5 +1,5 @@
 # wordpress-player-card
-Plugin WordPress per la creazione di una card HTML / CSS
+Plugin WordPress per la creazione di una card HTML / CSS.
 Come funziona?
 * installare e attivare il plugin
 * installare e attivare ACF Pro
