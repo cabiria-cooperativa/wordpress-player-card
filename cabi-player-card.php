@@ -4,7 +4,7 @@
  * Plugin URI: https://www.cabiria.net
  * Description: Crea la struttura per una "player card" HTML / CSS
  * Version: 1.0.0
- * Author: Cabiria
+ * Author: Simone Alati
  * Author URI: https://www.cabiria.net
  * Text Domain: cabi
  */
